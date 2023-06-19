@@ -95,15 +95,15 @@ function App() {
           <LinearProgress />
         </Box>
       ) : null}
-      <form onSubmit={submitHandler}>
-        {loading ? (
-          <Box className="desktop-progress" sx={{ width: "100%" }}>
-            <LinearProgress />
-          </Box>
-        ) : null}
-        {error ? (
-          <Alert severity="error">{error?.response?.data?.message}</Alert>
-        ) : null}
+      {loading ? (
+        <Box className="desktop-progress" sx={{ width: "100%" }}>
+          <LinearProgress />
+        </Box>
+      ) : null}
+      {error ? (
+        <Alert severity="error">{error?.response?.data?.message}</Alert>
+      ) : null}
+      <div className="images-container">
         <div
           style={{ backgroundImage: `url(${HeroimageUrl})` }}
           className="hero-container "
@@ -140,7 +140,9 @@ function App() {
             />
           </div>
         </div>
+      </div>
 
+      <form onSubmit={submitHandler}>
         <div>
           <label>Name</label>
           <input

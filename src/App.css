@@ -12,12 +12,18 @@
 }
 
 .App .hero-container {
-  width: 100%;
+
+  margin: auto;
   height: 200px;
   background-color: black;
   position: relative;
   background-repeat: no-repeat !important;
   background-size: cover;
+}
+.App .images-container{
+  width: 57%;
+  margin: auto;
+  margin-top: 1rem;
 }
 .App .hero-container .backdrop {
   position: absolute;
@@ -152,6 +158,13 @@ button:disabled {
   .desktop-progress {
     display: none !important;
   }
+  .App .images-container{
+    width: 100%;
+    margin-top: 0.2rem;
+  }
+  .App form{
+    margin-top: 0.5rem;
+  }
   .App form h1 {
     font-size: 1.7rem;
     margin-top: 0.6rem;
@@ -161,13 +174,16 @@ button:disabled {
     position: fixed;
   }
   .App .hero-container {
-    height: 120px;
+    height: 150px;
+  
   }
   .App .profile-container {
     width: 110px;
     height: 110px;
     margin-top: -55px;
+   
   }
+  
 
   .App form {
     width: auto;
