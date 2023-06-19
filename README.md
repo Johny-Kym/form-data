@@ -1,6 +1,7 @@
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![image description](relative/path/in/repository/to/image.svg)
 
 ## About The Project
 This is a web app built with React. It contains one screen to illustrate multipart form-data upload to a nodejs server. The server saves the images to cloudinary and returns a success or error http respond. 

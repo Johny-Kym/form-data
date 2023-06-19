@@ -67,7 +67,7 @@ function App() {
       setResponse(null);
       setError(null);
       const response = await axios.post(
-        "https://form-data-80ax.onrender.com/upload",
+        "http://localhost:5000/upload",
         formData,
         config
       );
