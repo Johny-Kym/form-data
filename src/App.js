@@ -114,6 +114,7 @@ function App() {
             onChange={onHeroFileSelectHandler}
             type="file"
             name="images"
+            accept="image/*"
           ></input>
           <div className="backdrop">
             <AddPhotoAlternateIcon
@@ -132,6 +133,7 @@ function App() {
             onChange={onProfileFileSelectHandler}
             type="file"
             name="profileImage"
+            accept="image/*"
           ></input>
           <div className="backdrop">
             <AddPhotoAlternateIcon
