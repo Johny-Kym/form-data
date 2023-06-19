@@ -8,7 +8,6 @@ This is a web app built with React. It contains one screen to illustrate multipa
 ## Folders
 ### /src
 contains frontend code
-Contains 
 ## /backend
 contains server code
 ## Available Scripts
